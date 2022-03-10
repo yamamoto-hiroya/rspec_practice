@@ -1,5 +1,5 @@
 # coding: utf-8
-describe 'test' do
+describe 'sample1_test' do
     context 'test' do
       # 成功する例
       it 'trueを返すこと' do
