@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  app:
+    container_name: rspec_practice
+    image: hiroyayamamoto/rspec_practice
+    # コンテナを起動しっぱなしにする
+    tty: true
+    # ホスト側のファイルをコンテナ内の/tmpにマウントする
+    volumes:
+      - ./:/tmp
